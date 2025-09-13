@@ -1,0 +1,146 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  background-color: #111;
+  color: #f4f4f4;
+  padding-top: 70px;
+}
+
+/* ===== Header ===== */
+header {
+  background: #222;
+  color: gold;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* ===== Navigation ===== */
+nav {
+  background: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ===== Main Container ===== */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+/* ===== Poem Previews ===== */
+.poem-preview {
+  background: #1a1a1a;
+  border: 1px solid #444;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.poem-preview h3 {
+  color: gold;
+  margin-bottom: 0.5rem;
+}
+
+.poem-preview p {
+  margin-bottom: 1rem;
+}
+
+.poem-preview button {
+  background: gold;
+  color: #111;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.poem-preview button:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+/* ===== Blog Posts ===== */
+.blog-post {
+  background: #1a1a1a;
+  border: 1px solid #444;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.blog-post h3 {
+  color: gold;
+  margin-bottom: 0.3rem;
+}
+
+.blog-post .date {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.7rem;
+}
+
+.blog-post a {
+  color: gold;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
